@@ -1,0 +1,21 @@
+body{
+    background: lightblue;
+}
+
+.bg{
+    text-align: center;
+    margin:0;
+    color: #35682D; 
+    font-size:40px;
+}
+.button{
+    background:white;
+    color:black;
+    margin:auto 0;
+    padding:5px 20px;
+    margin:10px 10px;
+    text-align:center;
+}
+.button:hover{
+    background: magenta;
+}
