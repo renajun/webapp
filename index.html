@@ -22,20 +22,38 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-       <div class="bg">
-        <div class="text">Random Color Generator</div>
-        <button class="button"onclick="window.location.href = 'color.html'">Generate</button>
-        <div class="color-box" style="background-color: #7369f8;" id="color-box">
-            <div class="color-code">
-            <p>HEX: #7369f8</p>
-            <p>RGB: rgb(115 105 248)</p>
-            </div>
-       </div>
-       <div class="color-box" style="background-color: #61e3d4;" id="color-box">
-        <div class="color-code">
-        <p>HEX: #61e3d4</p>
-        <p>RGB: rgb(115 105 248)</p>
-        </div>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Random Color Generator</title>
+                <style>
+                    .bg {
+                        text-align: center;
+                        margin-top: 450px;
+                    }
+                    .text {
+                        font-size: 55px;
+                        font-family:Georgia, 'Times New Roman', Times, serif;
+                    }
+                    .button {
+                        margin-top: 20px;
+                        padding: 10px 20px;
+                        font-size: 25px;
+                        cursor: pointer;
+                    }
+                </style>
+            </head>
+            <body>
+            
+                <div class="bg">
+                    <div class="text">Random Color Generator</div>
+                    <button class="button" onclick="window.location.href='color.html';">Generate</button>
+                </div>
+            
+            </body>
+            </html>
+
         <script src="scripts.js" async defer></script>
 
   
